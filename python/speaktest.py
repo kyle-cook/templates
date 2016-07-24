@@ -2,6 +2,9 @@ import unittest
 import speak
 
 class SpeakTests(unittest.TestCase):
+    """
+    Unit test for the speak library
+    """
 
     def testHello(self):
         self.assertEqual("Hello World!", speak.helloworld())
